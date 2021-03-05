@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+	author="PoliMappers" 
+	version="1.[[revision]]_[[date]]" 
+	shortdescription="Deforestation landcover" 
+	description="Set of preset to be used to map the landcover in forest areas">
+
+<group name="Deforestation landcover elements" icon="presets/landmark/trees.svg">
+
+	<item name="Forest - Wood" type="closedway, relation" icon="presets/landmark/forest.svg">
+		<key key="natural" value="wood" />
+	</item>
+
+	<item name="Burnt vegetation" type="closedway, relation" icon="presets/misc/kiln.svg">
+		<key key="natural" value="grassland" />
+		<key key="note" value="burn area" />
+	</item>
+
+	<item name="Shrubland - Scrub" type="closedway, relation" icon="presets/landuse/scrub.svg">
+		<key key="natural" value="scrub" />
+	</item>
+
+	<item name="Grassland" type="closedway, relation" icon="presets/landuse/meadow.svg">
+		<key key="natural" value="grassland" />
+	</item>
+
+	<item name="Farmland - Cropland" type="closedway, relation" icon="presets/landuse/farmland.svg">
+		<key key="landuse" value="farmland" />
+	</item>
+
+	<item name="Wetland" type="closedway, relation" icon="presets/landuse/wetland.svg">
+		<key key="natural" value="wetland" />
+	</item>
+
+	<item name="Sandy area without vegetation" type="closedway, relation" icon="presets/landuse/sand.svg">
+		<key key="natural" value="sand" />
+	</item>
+
+	<item name="Soil covered with gravel" type="closedway, relation" icon="presets/landuse/scree.svg">
+		<key key="natural" value="scree" />
+	</item>
+
+	<item name="Soil covered with bare rock" type="closedway, relation" icon="presets/landuse/shingle.svg">
+		<key key="natural" value="bare_rock" />
+	</item>
+
+	<!-- Group for water elements -->
+	<group name="Water" icon="presets/nautical/water.svg">
+		<item name="Lake" type="closedway, relation" icon="presets/nautical/water.svg">
+			<key key="natural" value="water" />
+			<key key="water" value="lake" />
+		</item>
+
+		<item name="River" type="way" icon="presets/nautical/waterway_river.svg">
+			<key key="waterway" value="river" />
+		</item>
+
+		<item name="River Area" type="closedway, relation" icon="presets/nautical/water.svg">
+			<key key="natural" value="water" />
+			<key key="water" value="river" />
+		</item>
+	</group>
+
+	<item name="Building" type="closedway, relation" icon="presets/landmark/building.svg">
+		<key key="building" value="yes" />
+	</item>
+
+	<!-- Group for osm landuse elements -->
+	<group name="Builtup areas" icon="presets/landuse/brownfield.svg">
+		<item name="Residential surrounding" type="closedway, relation" icon="presets/landmark/building.svg">
+			<key key="landuse" value="residential" />
+		</item>
+
+		<item name="Inustrial surrounding" type="closedway, relation" icon="presets/landmark/works.svg">
+			<key key="landuse" value="industrial" />
+		</item>
+
+		<item name="Commercial surrounding" type="closedway, relation" icon="presets/landuse/commercial.svg">
+			<key key="landuse" value="commercial" />
+		</item>
+	</group>
+
+	<!-- Group for roads -->
+	<group name="Roads" icon="presets/transport/way/way_secondary.svg">
+		<item name="Path in the forest" type="way" icon="presets/transport/way/path.svg">
+			<key key="highway" value="track" />
+		</item>
+
+		<item name="General roads" type="way" icon="presets/transport/way/way_unclassified.svg">
+			<key key="highway" value="unclassified" />
+		</item>
+		
+		<item name="Road in residential area" type="way" icon="presets/transport/way/way_residential.svg">
+			<key key="highway" value="residential" />
+		</item>
+	</group>
+
+</group>
+</presets>
