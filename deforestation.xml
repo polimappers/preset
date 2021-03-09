@@ -71,7 +71,7 @@
 			<key key="landuse" value="residential" />
 		</item>
 
-		<item name="Inustrial surrounding" type="closedway, relation" icon="presets/landmark/works.svg">
+		<item name="Industrial surrounding" type="closedway, relation" icon="presets/landmark/works.svg">
 			<key key="landuse" value="industrial" />
 		</item>
 
