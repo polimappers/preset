@@ -50,14 +50,23 @@
 			<key key="natural" value="water" />
 			<key key="water" value="lake" />
 		</item>
-
-		<item name="River" type="way" icon="presets/nautical/waterway_river.svg">
-			<key key="waterway" value="river" />
+		
+		<item name="Pond" type="closedway, relation" icon="presets/nautical/water.svg">
+			<key key="natural" value="water" />
+			<key key="water" value="pond" />
 		</item>
-
+		
 		<item name="River Area" type="closedway, relation" icon="presets/nautical/water.svg">
 			<key key="natural" value="water" />
 			<key key="water" value="river" />
+		</item>
+		
+		<item name="River" type="way" icon="presets/nautical/waterway_river.svg">
+			<key key="waterway" value="river" />
+		</item>
+		
+		<item name="Stream" type="way" icon="presets/nautical/waterway_stream.svg">
+			<key key="waterway" value="stream" />
 		</item>
 	</group>
 
